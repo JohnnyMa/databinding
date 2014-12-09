@@ -1,4 +1,4 @@
-sample implementation for data-binding
+## sample implementation for data-binding
 
-### binding.js -- with jQuery
-### binding2.js -- without jQuery
+#### binding.js -- with jQuery
+#### binding2.js -- without jQuery

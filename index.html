@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+	<title>data binding</title>
+	<script type="text/javascript" src="jquery-1.8.3.js"></script>
+	<script type="text/javascript" src="binding2.js"></script>
+</head>
+<body>
+	<section>
+		<input id="test-input" type="text" data-bind-123="name" />
+		<input id="test" type="button" value="click" />
+	</section>
+<script>
+var user = new User( 123 );
+user.set( "name", "Wolfgang" );
+$("#test").click(function() {
+	console.log($("#test-input").val());
+	console.log(user.get("name"));
+});
+</script>
+</body>
+</html>
